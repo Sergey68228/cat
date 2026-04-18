@@ -109,7 +109,7 @@ h2 {
 
 .subtitle {
   margin: 14px auto 0;
-  max-width: 360px;
+  max-width: 390px;
   font-size: 18px;
   line-height: 1.45;
 }
@@ -189,7 +189,7 @@ h2 {
 .tiny-note {
   margin-top: 18px;
   font-size: 14px;
-  opacity: 0.85;
+  opacity: 0.9;
   min-height: 18px;
 }
 

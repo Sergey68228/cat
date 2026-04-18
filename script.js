@@ -41,20 +41,14 @@ function showCat2() {
   mainCat.alt = "Котик просит";
 }
 
-function showCat3() {
-  if (!mainCat) return;
-  mainCat.src = "cat3.gif";
-  mainCat.alt = "Котик радуется";
-}
-
 if (noBtn) {
   const messages = [
     "подумай ещё раз…",
     "точно нет? 🥺",
-    "эта кнопка работает странно",
     "может всё-таки да?",
-    "ну посмотри на котика",
-    "он же просит",
+    "ну пожалуйста",
+    "котик уже просит за меня",
+    "я правда хочу погулять с тобой",
     "нет здесь не приветствуется 💔",
     "ладно, выбора у тебя почти нет"
   ];
@@ -117,6 +111,5 @@ if (noBtn) {
 if (yesBtn) {
   yesBtn.addEventListener("click", () => {
     sessionStorage.setItem("selectedCat", "cat3");
-    showCat3();
   });
 }
